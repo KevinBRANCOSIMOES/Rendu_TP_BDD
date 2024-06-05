@@ -1,0 +1,1 @@
+SELECT COUNT(Id_Reservation) AS "Nb Emprunt Matériel" FROM utilisateur INNER JOIN reservation ON reservation.id_etudiant = utilisateur.id_etudiant

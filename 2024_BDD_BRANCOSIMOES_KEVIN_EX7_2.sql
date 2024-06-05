@@ -1,0 +1,1 @@
+SELECT materiel.description AS 'Materiel jamais emprunte' FROM associe INNER JOIN reservation ON associe.Id_Reservation = reservation.id_reservation LEFT OUTER JOIN materiel ON associe.Id_Materiel = materiel.id_materiel

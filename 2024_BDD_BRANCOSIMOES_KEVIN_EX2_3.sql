@@ -1,0 +1,1 @@
+SELECT * FROM utilisateur WHERE utilisateur.email IS NOT NULL

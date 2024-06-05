@@ -1,0 +1,2 @@
+SELECT * FROM materiel INNER JOIN associe ON materiel.id_materiel = associe.Id_Materiel INNER JOIN reservation ON associe.Id_Reservation = reservation.id_reservation INNER JOIN utilisateur ON utilisateur.id_etudiant = reservation.id_etudiant WHERE utilisateur.prenom_etudiant = 'John' AND utilisateur.nom_etudiant = 'DOE'
+		

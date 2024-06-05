@@ -1,0 +1,1 @@
+SELECT utilisateur.email FROM utilisateur WHERE utilisateur.nom_etudiant LIKE 'jo%'

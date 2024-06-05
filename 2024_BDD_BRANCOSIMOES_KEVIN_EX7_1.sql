@@ -1,0 +1,1 @@
+SELECT DISTINCT utilisateur.nom_etudiant, utilisateur.prenom_etudiant, utilisateur.email FROM utilisateur RIGHT OUTER JOIN reservation ON utilisateur.id_etudiant = reservation.id_etudiant GROUP BY reservation.id_reservation HAVING COUNT(reservation.id_reservation)>0

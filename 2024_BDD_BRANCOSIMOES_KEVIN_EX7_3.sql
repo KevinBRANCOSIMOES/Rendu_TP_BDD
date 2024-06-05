@@ -1,0 +1,1 @@
+SELECT materiel.designation_materiel, reservation.id_reservation FROM associe INNER JOIN materiel ON associe.Id_Materiel = materiel.id_materiel INNER JOIN reservation ON associe.Id_Reservation = reservation.id_reservation GROUP BY associe.Id_Materiel HAVING COUNT(*)>3

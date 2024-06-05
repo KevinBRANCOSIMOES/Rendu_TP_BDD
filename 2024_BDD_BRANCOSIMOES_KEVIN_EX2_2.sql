@@ -1,0 +1,1 @@
+SELECT * FROM utilisateur ORDER BY utilisateur.id_etudiant LIMIT 5

@@ -1,0 +1,1 @@
+UPDATE materiel SET materiel.quantite = (materiel.quantite-1) WHERE materiel.id_materiel = 10

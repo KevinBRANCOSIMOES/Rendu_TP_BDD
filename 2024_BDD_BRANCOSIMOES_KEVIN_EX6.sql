@@ -1,0 +1,1 @@
+DELETE FROM reservation WHERE reservation.id_reservation = 4

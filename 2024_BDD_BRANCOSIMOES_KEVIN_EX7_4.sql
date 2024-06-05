@@ -1,0 +1,2 @@
+SELECT DISTINCT utilisateur.prenom_etudiant, utilisateur.nom_etudiant, COUNT(reservation.id_reservation) FROM utilisateur LEFT OUTER JOIN reservation ON utilisateur.id_etudiant = reservation.id_etudiant LEFT OUTER JOIN associe ON associe.Id_Reservation = reservation.id_reservation GROUP BY utilisateur.id_etudiant ORDER BY utilisateur.id_etudiant
+		
